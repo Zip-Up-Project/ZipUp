@@ -41,7 +41,7 @@ Spring Boot를 기반으로 백엔드를 구축하며 HTML, CSS, JavaScript로 �
 - **`main`**
 
   - 최종 배포 가능한 코드만 존재합니다.
-  - 직접 커밋은 금지되며, **Pull Request (PR)**를 통해서만 병합됩니다.
+  - 직접 커밋은 금지되며, **Pull Request (PR)** 를 통해서만 병합됩니다.
 
 - **`develop`**
 
