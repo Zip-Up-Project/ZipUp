@@ -18,6 +18,12 @@ Spring Boot를 기반으로 백엔드를 구축하며 HTML, CSS, JavaScript로 �
 
 ## 기술 스택
 
+
+### **개발 환경**  
+- **JDK 17**  
+- **Maven 3.x**  
+- **VSCode**
+
 ### 프론트엔드
 
 - **HTML**, **CSS**, **JavaScript**
@@ -31,8 +37,6 @@ Spring Boot를 기반으로 백엔드를 구축하며 HTML, CSS, JavaScript로 �
 - **MySQL**
 
 ## 브랜치 관리 규칙
-
-### **1. 브랜치 구조**
 
 - **`main`**
 
@@ -49,3 +53,28 @@ Spring Boot를 기반으로 백엔드를 구축하며 HTML, CSS, JavaScript로 �
   - 예시:
     - 신규 기능 : `feature/front/작업내용`
     - 버그 수정 : `fix/back/버그수정내용`
+
+
+ ## 백엔드 실행
+
+ mvn install
+ 
+ mvn spring-boot:run
+
+## **백엔드 환경변수 설정**
+
+### MAC
+export DB_URL=jdbc:mysql://localhost:3306/zipup
+
+export DB_USERNAME=your-username
+
+export DB_PASSWORD=your-password
+
+### Window
+set DB_URL=jdbc:mysql://localhost:3306/zipup
+
+set DB_USERNAME=your-username
+
+set DB_PASSWORD=your-password
+
+
