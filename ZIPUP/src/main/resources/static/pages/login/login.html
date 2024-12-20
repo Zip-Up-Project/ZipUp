@@ -4,25 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>로그인</title>
-    <link rel="stylesheet" href="../../css/login.css" />
-    <script src="login.js"></script>
+    <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body>
-    <img src="../../assets/svg/logo.svg" alt="logo" />
+    <div class="zipup-container">
+      <img src="../../assets/svg/logo.svg" alt="ZIP UP" class="zipup-logo" />
 
-    <form id="loginForm" onsubmit="return login(event);">
-      <input type="email" id="email" placeholder="이메일" required />
-      <br />
-      <input type="password" id="password" placeholder="비밀번호" required />
-      <br />
-      <button type="submit">로그인</button>
-      <br />
-      <div class="button-group">
-        <a href="/find-password.html">비밀번호 찾기</a>
-        <a href="/find-id.html">아이디 찾기</a>
-        <a href="/signup.html">회원가입</a>
+      <input type="email" placeholder="이메일" class="zipup-input" />
+      <input type="password" placeholder="비밀번호" class="zipup-input" />
+      <button class="zipup-btn">로그인</button>
+
+      <div class="login-button-group">
+        <a href="../find/findPassword.html">비밀번호 찾기</a>
+        <a href="../find/findId.html">아이디 찾기</a>
+        <a href="../signup/signup.html">회원가입</a>
       </div>
-    </form>
-    <div id="result" class="result"></div>
+    </div>
   </body>
 </html>
